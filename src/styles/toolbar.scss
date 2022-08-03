@@ -1,0 +1,67 @@
+@import "./variables";
+.tool-bar{
+    height:$toolbar-height;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    box-shadow: 0 4px 5px gray;
+    z-index: 2;
+
+    &__btn{
+        height: 1.5rem;
+        width: 1.5rem;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        margin-left: .75rem;
+    }
+
+    .brush{
+        background: url('../../public/asset/img/brush.png');
+        background-size: contain;
+    }
+    .rect{
+        background: url('../../public/asset/img/rect.png');
+        background-size: contain;
+    }
+    .circle{
+        background: url('../../public/asset/img/circle.png');
+        background-size: contain;
+    }
+    .eraser{
+        background: url('../../public/asset/img/eraser.png');
+        background-size: contain;
+    }
+    .line{
+        background: url('../../public/asset/img/line.png');
+        background-size: contain;
+    }
+    .undo{
+        background: url('../../public/asset/img/undo.png');
+        background-size: contain;
+        margin-left: auto;
+    }
+    .redo{
+        background: url('../../public/asset/img/redo.png');
+        background-size: contain;
+    }
+    .save{
+        background: url('../../public/asset/img/save.png');
+        background-size: contain;
+        margin-right: .75rem;
+    }
+
+
+}
+.setting-bar{
+    height:$toolbar-height;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    box-shadow: 0 4px 5px gray;
+    top:$toolbar-height;
+}
