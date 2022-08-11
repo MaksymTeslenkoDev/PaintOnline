@@ -162,14 +162,9 @@ module.exports = (env = {}) => {
     },
     resolve: {
       alias: {
-        //     src:path.resolve(__dirname,'src'),
-        // "/": path.resolve(__dirname, "src"),
         components: path.resolve(__dirname, "src/components"),
         styles: path.resolve(__dirname, "src/styles"),
-        //     Routes:path.resolve(__dirname,'src/Routes'),
-        //     Utility:path.resolve(__dirname,'src/Utility'),
-        //     Api:path.resolve(__dirname,'src/Api'),
-        //     Layout:path.resolve(__dirname,'src/Layout')
+        tools: path.resolve(__dirname, "src/tools"),
       },
       extensions: [".js", ".jsx"],
     },
